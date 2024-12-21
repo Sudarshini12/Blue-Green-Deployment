@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: salmanfarsi/go-web-app # Adjust the image tag for the blue version
+        image: salmanfarsi/bankapp # Adjust the image tag for the blue version
         ports:
         - containerPort: 8080
         env:
